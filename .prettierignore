@@ -1,0 +1,7 @@
+.next
+node_modules
+src/core/types/api.generated.ts
+test-results
+playwright-report
+
+.next-qa
