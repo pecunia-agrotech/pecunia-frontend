@@ -1,0 +1,520 @@
+{
+  "month": "2000-01",
+  "revenue": 0.0,
+  "variable_cost": 0.0,
+  "fixed_cost": 0.0,
+  "coe": 0.0,
+  "cot": 0.0,
+  "net_result": 0.0,
+  "milk_liters": 0.0,
+  "sales_without_volume": 0,
+  "cost_per_liter": null,
+  "margin_per_liter": null,
+  "settings_configured": false,
+  "requires_review": false,
+  "record_count": 0,
+  "simulation": false,
+  "scenario_id": null,
+  "context_name": "Histórico real",
+  "days": [
+    {
+      "date": "2000-01-01",
+      "revenue": 0.0,
+      "expense": 0.0,
+      "fixed_allocation": 0.0,
+      "net_result": 0.0,
+      "accumulated_result": 0.0,
+      "record_count": 0
+    },
+    {
+      "date": "2000-01-02",
+      "revenue": 0.0,
+      "expense": 0.0,
+      "fixed_allocation": 0.0,
+      "net_result": 0.0,
+      "accumulated_result": 0.0,
+      "record_count": 0
+    },
+    {
+      "date": "2000-01-03",
+      "revenue": 0.0,
+      "expense": 0.0,
+      "fixed_allocation": 0.0,
+      "net_result": 0.0,
+      "accumulated_result": 0.0,
+      "record_count": 0
+    },
+    {
+      "date": "2000-01-04",
+      "revenue": 0.0,
+      "expense": 0.0,
+      "fixed_allocation": 0.0,
+      "net_result": 0.0,
+      "accumulated_result": 0.0,
+      "record_count": 0
+    },
+    {
+      "date": "2000-01-05",
+      "revenue": 0.0,
+      "expense": 0.0,
+      "fixed_allocation": 0.0,
+      "net_result": 0.0,
+      "accumulated_result": 0.0,
+      "record_count": 0
+    },
+    {
+      "date": "2000-01-06",
+      "revenue": 0.0,
+      "expense": 0.0,
+      "fixed_allocation": 0.0,
+      "net_result": 0.0,
+      "accumulated_result": 0.0,
+      "record_count": 0
+    },
+    {
+      "date": "2000-01-07",
+      "revenue": 0.0,
+      "expense": 0.0,
+      "fixed_allocation": 0.0,
+      "net_result": 0.0,
+      "accumulated_result": 0.0,
+      "record_count": 0
+    },
+    {
+      "date": "2000-01-08",
+      "revenue": 0.0,
+      "expense": 0.0,
+      "fixed_allocation": 0.0,
+      "net_result": 0.0,
+      "accumulated_result": 0.0,
+      "record_count": 0
+    },
+    {
+      "date": "2000-01-09",
+      "revenue": 0.0,
+      "expense": 0.0,
+      "fixed_allocation": 0.0,
+      "net_result": 0.0,
+      "accumulated_result": 0.0,
+      "record_count": 0
+    },
+    {
+      "date": "2000-01-10",
+      "revenue": 0.0,
+      "expense": 0.0,
+      "fixed_allocation": 0.0,
+      "net_result": 0.0,
+      "accumulated_result": 0.0,
+      "record_count": 0
+    },
+    {
+      "date": "2000-01-11",
+      "revenue": 0.0,
+      "expense": 0.0,
+      "fixed_allocation": 0.0,
+      "net_result": 0.0,
+      "accumulated_result": 0.0,
+      "record_count": 0
+    },
+    {
+      "date": "2000-01-12",
+      "revenue": 0.0,
+      "expense": 0.0,
+      "fixed_allocation": 0.0,
+      "net_result": 0.0,
+      "accumulated_result": 0.0,
+      "record_count": 0
+    },
+    {
+      "date": "2000-01-13",
+      "revenue": 0.0,
+      "expense": 0.0,
+      "fixed_allocation": 0.0,
+      "net_result": 0.0,
+      "accumulated_result": 0.0,
+      "record_count": 0
+    },
+    {
+      "date": "2000-01-14",
+      "revenue": 0.0,
+      "expense": 0.0,
+      "fixed_allocation": 0.0,
+      "net_result": 0.0,
+      "accumulated_result": 0.0,
+      "record_count": 0
+    },
+    {
+      "date": "2000-01-15",
+      "revenue": 0.0,
+      "expense": 0.0,
+      "fixed_allocation": 0.0,
+      "net_result": 0.0,
+      "accumulated_result": 0.0,
+      "record_count": 0
+    },
+    {
+      "date": "2000-01-16",
+      "revenue": 0.0,
+      "expense": 0.0,
+      "fixed_allocation": 0.0,
+      "net_result": 0.0,
+      "accumulated_result": 0.0,
+      "record_count": 0
+    },
+    {
+      "date": "2000-01-17",
+      "revenue": 0.0,
+      "expense": 0.0,
+      "fixed_allocation": 0.0,
+      "net_result": 0.0,
+      "accumulated_result": 0.0,
+      "record_count": 0
+    },
+    {
+      "date": "2000-01-18",
+      "revenue": 0.0,
+      "expense": 0.0,
+      "fixed_allocation": 0.0,
+      "net_result": 0.0,
+      "accumulated_result": 0.0,
+      "record_count": 0
+    },
+    {
+      "date": "2000-01-19",
+      "revenue": 0.0,
+      "expense": 0.0,
+      "fixed_allocation": 0.0,
+      "net_result": 0.0,
+      "accumulated_result": 0.0,
+      "record_count": 0
+    },
+    {
+      "date": "2000-01-20",
+      "revenue": 0.0,
+      "expense": 0.0,
+      "fixed_allocation": 0.0,
+      "net_result": 0.0,
+      "accumulated_result": 0.0,
+      "record_count": 0
+    },
+    {
+      "date": "2000-01-21",
+      "revenue": 0.0,
+      "expense": 0.0,
+      "fixed_allocation": 0.0,
+      "net_result": 0.0,
+      "accumulated_result": 0.0,
+      "record_count": 0
+    },
+    {
+      "date": "2000-01-22",
+      "revenue": 0.0,
+      "expense": 0.0,
+      "fixed_allocation": 0.0,
+      "net_result": 0.0,
+      "accumulated_result": 0.0,
+      "record_count": 0
+    },
+    {
+      "date": "2000-01-23",
+      "revenue": 0.0,
+      "expense": 0.0,
+      "fixed_allocation": 0.0,
+      "net_result": 0.0,
+      "accumulated_result": 0.0,
+      "record_count": 0
+    },
+    {
+      "date": "2000-01-24",
+      "revenue": 0.0,
+      "expense": 0.0,
+      "fixed_allocation": 0.0,
+      "net_result": 0.0,
+      "accumulated_result": 0.0,
+      "record_count": 0
+    },
+    {
+      "date": "2000-01-25",
+      "revenue": 0.0,
+      "expense": 0.0,
+      "fixed_allocation": 0.0,
+      "net_result": 0.0,
+      "accumulated_result": 0.0,
+      "record_count": 0
+    },
+    {
+      "date": "2000-01-26",
+      "revenue": 0.0,
+      "expense": 0.0,
+      "fixed_allocation": 0.0,
+      "net_result": 0.0,
+      "accumulated_result": 0.0,
+      "record_count": 0
+    },
+    {
+      "date": "2000-01-27",
+      "revenue": 0.0,
+      "expense": 0.0,
+      "fixed_allocation": 0.0,
+      "net_result": 0.0,
+      "accumulated_result": 0.0,
+      "record_count": 0
+    },
+    {
+      "date": "2000-01-28",
+      "revenue": 0.0,
+      "expense": 0.0,
+      "fixed_allocation": 0.0,
+      "net_result": 0.0,
+      "accumulated_result": 0.0,
+      "record_count": 0
+    },
+    {
+      "date": "2000-01-29",
+      "revenue": 0.0,
+      "expense": 0.0,
+      "fixed_allocation": 0.0,
+      "net_result": 0.0,
+      "accumulated_result": 0.0,
+      "record_count": 0
+    },
+    {
+      "date": "2000-01-30",
+      "revenue": 0.0,
+      "expense": 0.0,
+      "fixed_allocation": 0.0,
+      "net_result": 0.0,
+      "accumulated_result": 0.0,
+      "record_count": 0
+    },
+    {
+      "date": "2000-01-31",
+      "revenue": 0.0,
+      "expense": 0.0,
+      "fixed_allocation": 0.0,
+      "net_result": 0.0,
+      "accumulated_result": 0.0,
+      "record_count": 0
+    }
+  ],
+  "expenses": [],
+  "statement": [
+    {
+      "indicator": "(+) Receita bruta",
+      "amount": 0.0
+    },
+    {
+      "indicator": "(−) Custos variáveis",
+      "amount": 0.0
+    },
+    {
+      "indicator": "(=) Margem de contribuição",
+      "amount": 0.0
+    },
+    {
+      "indicator": "(−) Custos fixos desembolsáveis",
+      "amount": 0.0
+    },
+    {
+      "indicator": "(=) Resultado antes da depreciação",
+      "amount": 0.0
+    },
+    {
+      "indicator": "(−) Depreciação",
+      "amount": 0.0
+    },
+    {
+      "indicator": "(=) Resultado gerencial",
+      "amount": 0.0
+    }
+  ],
+  "settings": {
+    "month": "2000-01",
+    "labor": 0.0,
+    "utilities": 0.0,
+    "maintenance": 0.0,
+    "depreciation": 0.0,
+    "milking_cows": null,
+    "reference_feed_price": null,
+    "version": 0,
+    "scenario_id": null,
+    "configured": false,
+    "requires_review": false,
+    "total_fixed_cost": 0.0,
+    "cash_fixed_cost": 0.0,
+    "reference_daily_allocation": 0.0
+  },
+  "indicators": {
+    "total_revenue": 0.0,
+    "total_cost": 0.0,
+    "iofc": null,
+    "iofc_per_cow": null,
+    "net_result": 0.0,
+    "milk_price": null,
+    "break_even_liters": null,
+    "cost_per_liter": null,
+    "feed_cost_per_liter": null,
+    "feed_cost_share": null,
+    "exchange_ratio": null,
+    "liters_per_cow": null
+  },
+  "analysis": {
+    "date": "2000-01-31",
+    "period": "monthly",
+    "period_label": "Mês 01/2000",
+    "status": "attention",
+    "status_label": "Atenção",
+    "indicators": {
+      "total_revenue": 0.0,
+      "total_cost": 0.0,
+      "iofc": null,
+      "iofc_per_cow": null,
+      "net_result": 0.0,
+      "milk_price": null,
+      "break_even_liters": null,
+      "cost_per_liter": null,
+      "feed_cost_per_liter": null,
+      "feed_cost_share": null,
+      "exchange_ratio": null,
+      "liters_per_cow": null
+    },
+    "facts": {
+      "milking_cows": null,
+      "milk_liters": 0.0,
+      "milk_revenue": 0.0,
+      "feed_cost": null,
+      "other_revenue": 0.0,
+      "other_expenses": 0.0,
+      "allocated_fixed_cost": 0.0,
+      "complete_milk_volume": false,
+      "reference_feed_price": null,
+      "missing_data": [
+        "Não há lançamentos no período.",
+        "O volume de leite não foi informado integralmente.",
+        "Não há receita positiva de venda de leite.",
+        "Não há lançamento de custo alimentar.",
+        "A configuração mensal está ausente ou exige revisão após migração.",
+        "O número de vacas em lactação não está configurado.",
+        "O preço de referência do insumo não está configurado."
+      ]
+    },
+    "trace": [
+      {
+        "id": "R01",
+        "priority": 1,
+        "activated": true,
+        "status": "attention",
+        "status_label": "Atenção",
+        "cf": 0.99,
+        "condition": "Sem lançamentos, volume incompleto, receita de leite nula, alimentação ausente ou fixos não configurados.",
+        "conclusion": "Base de dados insuficiente para um diagnóstico completo.",
+        "rationale": "Ausência de dados não equivale a custo zero ou desempenho saudável.",
+        "recommendation": "Complete litros, receitas, alimentação e custos fixos; valores zero precisam ser confirmados.",
+        "evidence": [
+          "Não há lançamentos no período.",
+          "O volume de leite não foi informado integralmente.",
+          "Não há receita positiva de venda de leite.",
+          "Não há lançamento de custo alimentar.",
+          "A configuração mensal está ausente ou exige revisão após migração.",
+          "O número de vacas em lactação não está configurado.",
+          "O preço de referência do insumo não está configurado."
+        ]
+      },
+      {
+        "id": "R02",
+        "priority": 2,
+        "activated": false,
+        "status": "critical",
+        "status_label": "Crítico",
+        "cf": 0.99,
+        "condition": "IOFC < 0 e há receita de leite.",
+        "conclusion": "A venda de leite não cobre a alimentação.",
+        "rationale": "IOFC = receita do leite menos custo alimentar; os demais custos ainda precisam ser pagos.",
+        "recommendation": "Revise preços e desperdícios com o responsável técnico, preservando a adequação nutricional.",
+        "evidence": ["Receita do leite: R$ 0,00.", "IOFC: Indisponível."]
+      },
+      {
+        "id": "R03",
+        "priority": 3,
+        "activated": false,
+        "status": "critical",
+        "status_label": "Crítico",
+        "cf": 0.98,
+        "condition": "Resultado líquido gerencial < 0.",
+        "conclusion": "Os custos registrados excedem as receitas.",
+        "rationale": "Resultado = receitas totais − alimentação − outras despesas − custos fixos rateados.",
+        "recommendation": "Confira os registros e priorize custos e receitas com maior impacto; evite dupla contagem.",
+        "evidence": [
+          "Receitas: R$ 0,00.",
+          "Custos: R$ 0,00.",
+          "Resultado: R$ 0,00."
+        ]
+      },
+      {
+        "id": "R04",
+        "priority": 4,
+        "activated": false,
+        "status": "critical",
+        "status_label": "Crítico",
+        "cf": 0.95,
+        "condition": "Litros vendidos < ponto de equilíbrio estático.",
+        "conclusion": "O volume de leite está abaixo do equilíbrio financeiro observado.",
+        "rationale": "Equilíbrio = máximo(0, custos totais − outras receitas) ÷ preço médio do leite.",
+        "recommendation": "Simule preço, volume e custos; o cálculo mantém custos constantes e não prevê resposta biológica.",
+        "evidence": ["Volume: 0,000 L.", "Equilíbrio estático: Indisponível."]
+      },
+      {
+        "id": "R05",
+        "priority": 5,
+        "activated": false,
+        "status": "attention",
+        "status_label": "Atenção",
+        "cf": 0.8,
+        "condition": "Custo alimentar > 60% da receita do leite.",
+        "conclusion": "Elevada participação alimentar na receita.",
+        "rationale": "Percentual alimentar = custo alimentar ÷ receita do leite × 100. O limite de 60% segue a regra R05 do projeto; não é uma recomendação universal.",
+        "recommendation": "Avalie eficiência alimentar, perdas e preço dos insumos. Compare com o histórico da própria fazenda.",
+        "evidence": [
+          "Participação alimentar: Indisponível.",
+          "Limite: superior a 60%."
+        ]
+      },
+      {
+        "id": "R06",
+        "priority": 6,
+        "activated": false,
+        "status": "attention",
+        "status_label": "Atenção",
+        "cf": 0.75,
+        "condition": "Relação de troca < 1 kg de insumo/L de leite.",
+        "conclusion": "O leite compra menos de 1 kg do insumo de referência.",
+        "rationale": "Relação de troca = preço médio do leite (R$/L) ÷ preço do insumo (R$/kg). Não é conversão alimentar nem índice USDA.",
+        "recommendation": "Negocie compras e compare o mesmo insumo ao longo do tempo. O limiar de 1 segue a regra R06 do projeto e depende da definição operacional adotada.",
+        "evidence": [
+          "Relação de troca: Indisponível.",
+          "Limite: inferior a 1,000 kg de insumo/L."
+        ]
+      },
+      {
+        "id": "R07",
+        "priority": 7,
+        "activated": false,
+        "status": "attention",
+        "status_label": "Atenção",
+        "cf": 0.85,
+        "condition": "IOFC = 0 com receita de leite positiva.",
+        "conclusion": "A receita cobre apenas a alimentação.",
+        "rationale": "Sem sobra alimentar, custos não alimentares reduzem o resultado.",
+        "recommendation": "Revise a margem e a cobertura dos custos operacionais.",
+        "evidence": [
+          "Receita do leite: R$ 0,00.",
+          "IOFC canônico: Indisponível."
+        ]
+      }
+    ],
+    "report_markdown": "# Diagnóstico: Atenção\nPeríodo: Mês 01/2000.\n\n## COMO? — fatos e cálculo\n- Receita do leite: R$ 0,00.\n- Volume comercializado: 0,000 L.\n- Alimentação registrada: Indisponível.\n- Outras receitas: R$ 0,00.\n- Outras despesas: R$ 0,00.\n- Custos fixos alocados: R$ 0,00.\n- IOFC = receita do leite − alimentação: Indisponível.\n- IOFC/vaca = IOFC ÷ vacas configuradas: Indisponível.\n- Resultado gerencial = receitas totais − custos totais: R$ 0,00.\n- Preço médio do leite = receita do leite ÷ volume: Indisponível.\n- Alimentação/receita = alimentação ÷ receita do leite × 100: Indisponível.\n- Equilíbrio estático = máx(0, custos − outras receitas) ÷ preço médio: Indisponível.\n- Relação de troca = preço do leite ÷ preço do insumo: Indisponível.\n\n## Validade e dados ausentes\n- Não há lançamentos no período.\n- O volume de leite não foi informado integralmente.\n- Não há receita positiva de venda de leite.\n- Não há lançamento de custo alimentar.\n- A configuração mensal está ausente ou exige revisão após migração.\n- O número de vacas em lactação não está configurado.\n- O preço de referência do insumo não está configurado.\n\n## POR QUÊ? — regras ativadas\n### R01 · Base de dados insuficiente para um diagnóstico completo.\n- Condição: Sem lançamentos, volume incompleto, receita de leite nula, alimentação ausente ou fixos não configurados.\n- CF heurístico: 0.99.\n- Fundamentação: Ausência de dados não equivale a custo zero ou desempenho saudável.\n- Evidência: Não há lançamentos no período.\n- Evidência: O volume de leite não foi informado integralmente.\n- Evidência: Não há receita positiva de venda de leite.\n- Evidência: Não há lançamento de custo alimentar.\n- Evidência: A configuração mensal está ausente ou exige revisão após migração.\n- Evidência: O número de vacas em lactação não está configurado.\n- Evidência: O preço de referência do insumo não está configurado.\n- Ação sugerida: Complete litros, receitas, alimentação e custos fixos; valores zero precisam ser confirmados.\n\n## Fórmulas provisórias e limites\nEquilíbrio estático e relação de troca são definições operacionais provisórias do projeto. O equilíbrio mantém os custos observados constantes. A relação usa R$/L dividido por R$/kg; não é conversão alimentar nem índice USDA.\nO rateio mensal usa os dias corridos do mês e distribui os centavos residuais. IOFC não é lucro líquido. Custos ausentes não são estimados; indicadores que dependem deles ficam indisponíveis.\nCF é um peso heurístico, não uma probabilidade. R05 e R06 seguem os limites solicitados para o projeto, sem atribuí-los a uma fonte científica como recomendações universais.\nReferência conceitual de IOFC: Penn State Extension, Managing Income Over Feed Costs — https://extension.psu.edu/managing-income-over-feed-costs .\nReferência conceitual de custos operacionais e depreciação: Embrapa, Boas práticas agropecuárias na produção de leite — https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1179291/1/Boas-praticas-agropecuarias-na-producao-de-leite.pdf .\nAs referências são registradas para rastreabilidade; o diagnóstico não consulta a internet.",
+    "simulation": false,
+    "scenario_id": null,
+    "context_name": "Histórico real"
+  }
+}

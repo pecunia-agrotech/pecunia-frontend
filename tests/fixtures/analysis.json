@@ -1,0 +1,143 @@
+{
+  "date": "2026-10-31",
+  "period": "monthly",
+  "period_label": "Mês 10/2026",
+  "status": "healthy",
+  "status_label": "Saudável",
+  "indicators": {
+    "total_revenue": 41776.43,
+    "total_cost": 22002.82,
+    "iofc": 26807.89,
+    "iofc_per_cow": 893.6,
+    "net_result": 19773.61,
+    "milk_price": 2.7,
+    "break_even_liters": 8149.1927,
+    "cost_per_liter": 1.422,
+    "feed_cost_per_liter": 0.9674,
+    "feed_cost_share": 35.8301,
+    "exchange_ratio": 2.16,
+    "liters_per_cow": 515.7584
+  },
+  "facts": {
+    "milking_cows": 30,
+    "milk_liters": 15472.752,
+    "milk_revenue": 41776.43,
+    "feed_cost": 14968.54,
+    "other_revenue": 0.0,
+    "other_expenses": 1384.28,
+    "allocated_fixed_cost": 5650.0,
+    "complete_milk_volume": true,
+    "reference_feed_price": 1.25,
+    "missing_data": []
+  },
+  "trace": [
+    {
+      "id": "R01",
+      "priority": 1,
+      "activated": false,
+      "status": "attention",
+      "status_label": "Atenção",
+      "cf": 0.99,
+      "condition": "Sem lançamentos, volume incompleto, receita de leite nula, alimentação ausente ou fixos não configurados.",
+      "conclusion": "Base de dados insuficiente para um diagnóstico completo.",
+      "rationale": "Ausência de dados não equivale a custo zero ou desempenho saudável.",
+      "recommendation": "Complete litros, receitas, alimentação e custos fixos; valores zero precisam ser confirmados.",
+      "evidence": ["Os dados básicos necessários estão presentes."]
+    },
+    {
+      "id": "R02",
+      "priority": 2,
+      "activated": false,
+      "status": "critical",
+      "status_label": "Crítico",
+      "cf": 0.99,
+      "condition": "IOFC < 0 e há receita de leite.",
+      "conclusion": "A venda de leite não cobre a alimentação.",
+      "rationale": "IOFC = receita do leite menos custo alimentar; os demais custos ainda precisam ser pagos.",
+      "recommendation": "Revise preços e desperdícios com o responsável técnico, preservando a adequação nutricional.",
+      "evidence": ["Receita do leite: R$ 41.776,43.", "IOFC: R$ 26.807,89."]
+    },
+    {
+      "id": "R03",
+      "priority": 3,
+      "activated": false,
+      "status": "critical",
+      "status_label": "Crítico",
+      "cf": 0.98,
+      "condition": "Resultado líquido gerencial < 0.",
+      "conclusion": "Os custos registrados excedem as receitas.",
+      "rationale": "Resultado = receitas totais − alimentação − outras despesas − custos fixos rateados.",
+      "recommendation": "Confira os registros e priorize custos e receitas com maior impacto; evite dupla contagem.",
+      "evidence": [
+        "Receitas: R$ 41.776,43.",
+        "Custos: R$ 22.002,82.",
+        "Resultado: R$ 19.773,61."
+      ]
+    },
+    {
+      "id": "R04",
+      "priority": 4,
+      "activated": false,
+      "status": "critical",
+      "status_label": "Crítico",
+      "cf": 0.95,
+      "condition": "Litros vendidos < ponto de equilíbrio estático.",
+      "conclusion": "O volume de leite está abaixo do equilíbrio financeiro observado.",
+      "rationale": "Equilíbrio = máximo(0, custos totais − outras receitas) ÷ preço médio do leite.",
+      "recommendation": "Simule preço, volume e custos; o cálculo mantém custos constantes e não prevê resposta biológica.",
+      "evidence": ["Volume: 15472,752 L.", "Equilíbrio estático: 8149,193 L."]
+    },
+    {
+      "id": "R05",
+      "priority": 5,
+      "activated": false,
+      "status": "attention",
+      "status_label": "Atenção",
+      "cf": 0.8,
+      "condition": "Custo alimentar > 60% da receita do leite.",
+      "conclusion": "Elevada participação alimentar na receita.",
+      "rationale": "Percentual alimentar = custo alimentar ÷ receita do leite × 100. O limite de 60% segue a regra R05 do projeto; não é uma recomendação universal.",
+      "recommendation": "Avalie eficiência alimentar, perdas e preço dos insumos. Compare com o histórico da própria fazenda.",
+      "evidence": [
+        "Participação alimentar: 35,830 %.",
+        "Limite: superior a 60%."
+      ]
+    },
+    {
+      "id": "R06",
+      "priority": 6,
+      "activated": false,
+      "status": "attention",
+      "status_label": "Atenção",
+      "cf": 0.75,
+      "condition": "Relação de troca < 1 kg de insumo/L de leite.",
+      "conclusion": "O leite compra menos de 1 kg do insumo de referência.",
+      "rationale": "Relação de troca = preço médio do leite (R$/L) ÷ preço do insumo (R$/kg). Não é conversão alimentar nem índice USDA.",
+      "recommendation": "Negocie compras e compare o mesmo insumo ao longo do tempo. O limiar de 1 segue a regra R06 do projeto e depende da definição operacional adotada.",
+      "evidence": [
+        "Relação de troca: 2,160 kg de insumo/L.",
+        "Limite: inferior a 1,000 kg de insumo/L."
+      ]
+    },
+    {
+      "id": "R07",
+      "priority": 7,
+      "activated": false,
+      "status": "attention",
+      "status_label": "Atenção",
+      "cf": 0.85,
+      "condition": "IOFC = 0 com receita de leite positiva.",
+      "conclusion": "A receita cobre apenas a alimentação.",
+      "rationale": "Sem sobra alimentar, custos não alimentares reduzem o resultado.",
+      "recommendation": "Revise a margem e a cobertura dos custos operacionais.",
+      "evidence": [
+        "Receita do leite: R$ 41.776,43.",
+        "IOFC canônico: R$ 26.807,89."
+      ]
+    }
+  ],
+  "report_markdown": "# Diagnóstico: Saudável\nPeríodo: Mês 10/2026.\n\n## COMO? — fatos e cálculo\n- Receita do leite: R$ 41.776,43.\n- Volume comercializado: 15472,752 L.\n- Alimentação registrada: R$ 14.968,54.\n- Outras receitas: R$ 0,00.\n- Outras despesas: R$ 1.384,28.\n- Custos fixos alocados: R$ 5.650,00.\n- IOFC = receita do leite − alimentação: R$ 26.807,89.\n- IOFC/vaca = IOFC ÷ vacas configuradas: R$ 893,60.\n- Resultado gerencial = receitas totais − custos totais: R$ 19.773,61.\n- Preço médio do leite = receita do leite ÷ volume: 2,700 R$/L.\n- Alimentação/receita = alimentação ÷ receita do leite × 100: 35,830 %.\n- Equilíbrio estático = máx(0, custos − outras receitas) ÷ preço médio: 8149,193 L.\n- Relação de troca = preço do leite ÷ preço do insumo: 2,160 kg de insumo/L.\n\n## Validade e dados ausentes\nOs dados básicos necessários estão presentes.\n\n## POR QUÊ? — regras ativadas\nNenhuma regra de alerta foi ativada pelos dados e limites atuais. Isso não é uma garantia de resultado futuro.\n\n## Fórmulas provisórias e limites\nEquilíbrio estático e relação de troca são definições operacionais provisórias do projeto. O equilíbrio mantém os custos observados constantes. A relação usa R$/L dividido por R$/kg; não é conversão alimentar nem índice USDA.\nO rateio mensal usa os dias corridos do mês e distribui os centavos residuais. IOFC não é lucro líquido. Custos ausentes não são estimados; indicadores que dependem deles ficam indisponíveis.\nCF é um peso heurístico, não uma probabilidade. R05 e R06 seguem os limites solicitados para o projeto, sem atribuí-los a uma fonte científica como recomendações universais.\nReferência conceitual de IOFC: Penn State Extension, Managing Income Over Feed Costs — https://extension.psu.edu/managing-income-over-feed-costs .\nReferência conceitual de custos operacionais e depreciação: Embrapa, Boas práticas agropecuárias na produção de leite — https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1179291/1/Boas-praticas-agropecuarias-na-producao-de-leite.pdf .\nAs referências são registradas para rastreabilidade; o diagnóstico não consulta a internet.",
+  "simulation": true,
+  "scenario_id": "demo",
+  "context_name": "Demonstração — 30 dias"
+}

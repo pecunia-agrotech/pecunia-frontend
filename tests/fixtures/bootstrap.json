@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "local_date": "2026-10-21",
+  "version": "2.0.0",
+  "contexts": [
+    {
+      "id": "real",
+      "name": "Histórico real",
+      "simulation": false,
+      "demo": false,
+      "version": 1,
+      "record_count": 0
+    },
+    {
+      "id": "demo",
+      "name": "Demonstração — 30 dias",
+      "simulation": true,
+      "demo": true,
+      "version": 1,
+      "record_count": 73
+    }
+  ],
+  "initial_context_id": "demo"
+}
